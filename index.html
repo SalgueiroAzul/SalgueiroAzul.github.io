@@ -4,12 +4,7 @@
 
 body {
   background-color: ceb980;;
-}
 
-@media only screen and (hover: none) and (pointer: coarse)) {
-  body {
-    background-color: lightblue;
-  }
 }
 </style>
 <body style>
@@ -24,4 +19,9 @@ body {
 
 
   </body>
+  <script type="text/javascript">
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  document.body.style.backgroundColor = "red";
+}
+</script>
 </html>
